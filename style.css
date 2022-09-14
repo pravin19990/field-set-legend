@@ -1,0 +1,41 @@
+.aa{
+    columns: 4;
+    column-gap: 40px;
+    text-align: justify;
+    
+}
+
+.aaa p::first-letter{
+    font-size: 50px;
+    color: blue;
+    float: left;
+    
+   
+}
+.aaa p{
+    columns: 4;
+    justify-content: space-between;
+    text-align: justify;
+    column-gap: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.a1{
+    columns: 4;
+    column-gap: 40px;
+    text-align: justify;
+}
+.a1 p::first-letter{
+    font-size: 30px;
+    color: black;
+
+}
+h1{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.a1 p{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: inherit;
+}
